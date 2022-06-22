@@ -1,2 +1,2 @@
-# wdd230
-Course Repo for WDD230 Web Frontend Development I
+# WDD230-Working
+WDD230 Web Frontend Dev I Working
