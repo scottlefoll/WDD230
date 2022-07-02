@@ -234,7 +234,7 @@
 }
 
 /* Xtra Lage Desktop Views ****************************/
-/* @media only screen and (min-width: 80em) {
+@media only screen and (min-width: 80em) {
 	ul {
 		margin-left: 8rem;
 		margin-right: 8rem;
@@ -247,7 +247,7 @@
     header, nav, main, footer {
         max-width: 64rem;
         margin:auto;
-    } */
+    }
 
 /*----------- BODY --------------*/
 
@@ -263,13 +263,13 @@
 
 /*----------- MAIN --------------*/
 
-/* form label.sbs {
+form label.sbs {
     padding: .4rem 0;
-} */
+}
 
 /*----------- FOOTER --------------*/
     
-/* .footer3 {
+.footer3 {
     width: 74vw;
     margin-left: 13vw;
     margin-right: 13vw;
@@ -284,6 +284,6 @@
     border-radius: 3px;
     font-size: 1.15rem;
     top: 5rem;
-} */
+}
 
 } /* end of media query */
