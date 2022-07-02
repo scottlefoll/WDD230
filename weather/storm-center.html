@@ -50,8 +50,8 @@
     <nav class="mobile-container">
 
       <!-- ****************************** Hamburger menu html-->
-
-      <div class="topnav">
+      <!-- Top Navigation Menu -->
+      <!-- <div class="topnav">
         <a href="#home" class="active">Menu</a>
         <div id="myLinks">
           <a href="../index.html">🏡Home</a>
@@ -64,8 +64,23 @@
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
+      </div> -->
+
+
+            
+      <div class="topnav">
+        <a href="#home" class="active">Logo</a>
+        <div id="myLinks">
+          <a href="#news">News</a>
+          <a href="#contact">Contact</a>
+          <a href="#about">About</a>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
-  <!-- ****************************** Hamburger menu html-->
+
+  <!-- ****************************** Big nav menu html-->
         <ul class="big-menu">
           <li><a href="weather.html" class="active">🏡Home</a></li>
           <li><a href="preston.html">🚜Preston</a></li>
@@ -77,18 +92,6 @@
     </nav>
 
     <main class="weather-container-storm">
-      <!-- <h2>Storm Center page coming soon</h2>
-      
-      <div class="content-box">Hero w/Weather Summary</div>
-
-      <div class="content-box">5 Day Forecast</div>
-
-      <div class="content-box">Article</div>
-
-      <div class="content-box">Contact Information</div> -->
-
-
-
         <h2>Storm Center Report</h2>
 
         <form method="get" action="thanks.html">
@@ -103,21 +106,6 @@
             <fieldset>
                 <legend>Storm Information</legend>
                 <label class="top">Storm Date <input type="date" name="completeDate"></label>
-
-                <!-- <label class="top">Storm Type
-                  <select name="stormType">
-                      <option value="">Please Select &#9662</option>                        
-                      <option value="blizzard">blizzard</option>
-                      <option value="flash flood">flash flood</option>
-                      <option value="hail">hail storm</option>
-                      <option value="hurricane">hurricane</option>
-                      <option value="snow storm">snow storm</option>
-                      <option value="thunderstorm">thunderstorm</option>
-                      <option value="tornado">tornado</option>
-                      <option value="tsunami">tsunami</option>
-                  </select>    
-                </label> -->
-
 
                 <label class="top" title="Select or enter a storm type" for="stormType">Storm type:
                 <input list="stormT" name="stormType" id="stormType"></label>
@@ -157,7 +145,7 @@
     
 <!-- FOOTER HERE -->   
 
-<footer class="footer2">
+<footer class="footer-storm">
       <p class="p-footer">        
         <span
           >Ⓒ<a href="weather.html"
@@ -188,7 +176,7 @@
           x.style.display = "block";
         }
       }
-      </script>
+    </script>
 
     <script src="js/script.js"></script>
   </body>

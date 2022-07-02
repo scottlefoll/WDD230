@@ -261,6 +261,8 @@ img {
   }
    */
   /* hover effect */
+ 
+
  .gallery-pic:hover {box-shadow: 0 0 50px #333;}
 
 .gallery-pic {
@@ -497,18 +499,7 @@ ul {
 	top: 4rem;
 }
 
-.weather-container-storm {
-	display: block;
-	position: relative;
-	margin: 0 0 2rem 0;
-	border: none;
-	padding: 1rem;
-	width: 80%;
-	margin-left: 20vw;
-	margin-right: 20vw;
-	width: 60vw;
-	top: 4rem;
-}
+
 
 .weather-container7 {
 	display: grid;
@@ -574,13 +565,13 @@ header h2 {margin: 0;
            padding: 2rem;       
 }
 
-/* h2 {
+h2 {
 	font-size: 1rem;
 	font-weight: 900;
 	text-align: center;
 	color: black;
 	padding: 2rem;
-} */
+}
 
 /*----------- NAVIGATION --------------*/
 nav {
@@ -634,10 +625,13 @@ main {
 form {
     min-width: 230px;
 }
+
 form fieldset {
     margin: 2rem 0;
     border: 1px solid #445ba9;
     border-radius: 10px;
+	min-width: 240px;
+	width: 100%;
     padding: .5rem;
 }
 
@@ -675,8 +669,6 @@ form label.sbs {
 }
 
 
-.gallery-pic:hover {box-shadow: 0 0 50px #333;}
-
 form input.submitBtn:hover {
     background-color: #2191FB;
     font-weight: 800;
@@ -700,6 +692,19 @@ form label.top input:required {
 
 form label.top input:required:valid {
     border-left: solid 6px green;
+}
+
+.weather-container-storm {
+	display: block;
+	position: relative;
+	margin: 0 0 2rem 0;
+	border: none;
+	padding: 1rem;
+	/* width: 80%; */
+	/* margin-left: 20vw; */
+	/* margin-right: 20vw; */
+	/* width: 60vw; */
+	top: 1rem;
 }
 
 /*----------- FOOTER --------------*/
@@ -789,6 +794,24 @@ footer {
 	padding-top: 2rem;
 }
 
+.footer-storm {
+	background-color: #2191FB;
+	color: yellow;
+	font-family: "Montserrat", "Sansita", Ubuntu, sans-serif;
+	font-size: .75rem;
+	display: flex;
+	position: relative;
+	top: 1rem;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	padding: .75rem;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+	margin-top: 2rem;
+	padding-top: 2rem;
+}
+
 footer p {
 	background-color: #2191FB;
 	color: yellow;
@@ -809,3 +832,5 @@ footer p span:not(:last-child)::after {
   display: table;
   clear: both;
 }
+
+
