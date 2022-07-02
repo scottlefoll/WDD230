@@ -497,6 +497,19 @@ ul {
 	top: 4rem;
 }
 
+.weather-container-storm {
+	display: block;
+	position: relative;
+	margin: 0 0 2rem 0;
+	border: none;
+	padding: 1rem;
+	width: 80%;
+	margin-left: 20vw;
+	margin-right: 20vw;
+	width: 60vw;
+	top: 4rem;
+}
+
 .weather-container7 {
 	display: grid;
 	position: relative;
