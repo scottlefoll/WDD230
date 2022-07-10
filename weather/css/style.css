@@ -638,6 +638,17 @@ ul {
 	top: 1rem;
 }
 
+#windChill-stats {
+	position: relative;
+	text-align: left;
+	color: yellow;
+	height: 12.5rem;
+	width: 100%;
+	left: -.15rem;
+	font-weight: 900;
+	font-size: .85rem;
+}
+
 /* ************Flex Grid Alternating for Phone View ******** */
 
 .home-h2 {
@@ -1180,6 +1191,9 @@ article:nth-child(odd) .data {
 		width: 74vw;
 	}
 
+	#cover {
+		
+	}
 	/* .content-box {
 		font-size: 1.15rem;
 		margin-left: 13vw;
@@ -1325,7 +1339,7 @@ article:nth-child(odd) .data {
 	
 	.p-stats {
 		left: .25rem;
-		font-size: 1rem;
+		font-size: .90rem;
 		text-align: left;
 		justify-content: left;
 		position: relative;
